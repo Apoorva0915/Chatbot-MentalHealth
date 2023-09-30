@@ -243,6 +243,9 @@ header h2 {
 
 @media (max-width: 490px) {
 
+  /* body{
+    height:100vh;
+  } */
   .home-left {
     width: 100vw;
     background-size: contain;
@@ -341,6 +344,13 @@ header h2 {
     font-size: 1.5rem;
   }
 
+  /* .chatbot{
+    position: fixed;
+    left: 25vw;
+    width: 60vw;
+    height: 60vh;
+
+ } */
   .home-right {
     width: 0%;
 
