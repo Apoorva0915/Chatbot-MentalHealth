@@ -5,7 +5,8 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; // Variable to store user's message
-const API_KEY ="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"; // Paste your API key here
+const API_KEY =""; // Paste your API key here
+// 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
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -83,3 +84,6 @@ chatInput.addEventListener("keydown", (e) => {
 sendChatBtn.addEventListener("click", handleChat);
 closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
+
+
